@@ -55,4 +55,3 @@ for (const theme of [DARK, LIGHT]) {
   fs.writeFileSync(path.join(__dirname, theme.file), build(theme));
   console.log(`wrote ${theme.file}`);
 }
-//
