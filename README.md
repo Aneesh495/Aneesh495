@@ -1,16 +1,24 @@
-## Hi there 👋
+## Hi, I'm Aneesh Krishna:
 
-<!--
-**Aneesh495/Aneesh495** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 CS + Applied Stats @ Purdue Honors College<br/>
+Focus: Machine Intelligence | Minors in Math + Finance<br/>
 
-Here are some ideas to get you started:
+💻 Technical Stack: Java, Python, C/C++, Solidity, JavaScript/TypeScript, React, Node.js, R, SQL<br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔐 Experience:<br/>
+
+SWE Intern @ Retail Hedging – built JWT-auth Stripe integrations, trading UIs<br/>
+
+Full Stack Intern @ PlaytoonIt – developed cross-platform gaming apps<br/>
+
+Researcher @ Purdue & The Data Mine – analyzed 18K+ survey responses using R & Python<br/>
+
+📊 Interests: AI/ML, Data Science, Full Stack, Smart Contracts, Backend Engineering<br/>
+
+🔗 Projects:<br/>
+
+Freelance DAO: Ethereum-based freelance platform with on-chain arbitration<br/>
+
+Vibe: Java-based social app with real-time messaging + GUI<br/>
+
+📜 Certified in Python, JS, Cybersecurity, Ethical Hacking (Cisco, CITI, etc.)<br/>
