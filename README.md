@@ -1,6 +1,28 @@
 ![Header](./header)
 
-🎓 CS + Applied Stats @ Purdue Honors College<br>Focus: Machine Intelligence | Minors in Math + Finance<br><br>💻 Technical Stack: Java, Python, C/C++, Solidity, JavaScript/TypeScript, React, Node.js, R, SQL<br><br>🔐 Experience:<br><br>SWE Intern @ Retail Hedging – built JWT-auth Stripe integrations, trading UIs<br><br>Full Stack Intern @ PlaytoonIt – developed cross-platform gaming apps<br><br>Researcher @ Purdue & The Data Mine – analyzed 18K+ survey responses using R & Python<br><br>📊 Interests: AI/ML, Data Science, Full Stack, Smart Contracts, Backend Engineering<br><br>🔗 Projects:<br><br>Freelance DAO: Ethereum-based freelance platform with on-chain arbitration<br><br>Vibe: Java-based social app with real-time messaging + GUI<br><br>📜 Certified in Python, JS, Cybersecurity, Ethical Hacking (Cisco, CITI, etc.)
+🎓 **CS + Applied Statistics @ Purdue Honors College**<br/>
+Focus: Machine Intelligence | Minors: Math & Finance<br/><br/>
+
+💡 **About Me**<br/>
+Hi! I’m Aneesh — a curious builder passionate about bridging data, engineering, and design to create impactful, scalable solutions. I enjoy working at the intersection of machine intelligence, finance, and creative technologies.<br/><br/>
+
+💻 **Tech Focus**<br/>
+Versatile full-stack engineer and data scientist with a strong foundation in Java, Python, C/C++, Solidity, and JavaScript/TypeScript. Experienced across backend systems, smart contracts, and user-facing interfaces.<br/><br/>
+
+🚀 **Industry Experience**<br/>
+- **SWE Intern @ Retail Hedging** — Architected JWT-auth Stripe integrations and developed trading UIs.<br/>
+- **Full Stack Intern @ PlaytoonIt** — Shipped cross-platform gaming apps, focusing on seamless user experiences.<br/>
+- **Researcher @ Purdue & The Data Mine** — Led data analyses on 18K+ survey responses using R and Python, driving actionable insights.<br/><br/>
+
+⚡ **Interests**<br/>
+AI/ML, data engineering, decentralized finance (DeFi), backend & infrastructure, scalable full-stack architectures.<br/><br/>
+
+🛠️ **Selected Projects**<br/>
+- **Freelance DAO** — Ethereum-based freelance marketplace with on-chain arbitration mechanisms.<br/>
+- **Vibe** — Java-based social networking app featuring real-time messaging and a fully custom GUI.<br/><br/>
+
+📜 **Certifications**<br/>
+Python, JavaScript, Cybersecurity, Data Science, Artificial Intelligence, Networking, Ethical Hacking, Network Defense, Cyber-Threat Management (Cisco, CITI, and more).<br/>
 
 
 ## 🌐 Socials:
