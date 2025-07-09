@@ -19,7 +19,8 @@ AI/ML, data engineering, decentralized finance (DeFi), backend & infrastructure,
 
 🛠️ **Selected Projects**<br/>
 - **Freelance DAO** — Ethereum-based freelance marketplace with on-chain arbitration mechanisms.<br/>
-- **Vibe** — Java-based social networking app featuring real-time messaging and a fully custom GUI.<br/><br/>
+- **Vibe** — Java-based social networking app featuring real-time messaging and a fully custom GUI.<br/>
+- **Portfolio** - tinyurl.com/Aneesh-Krishna<br/><br/>
 
 📜 **Certifications**<br/>
 Python, JavaScript, Cybersecurity, Data Science, Artificial Intelligence, Networking, Ethical Hacking, Network Defense, Cyber-Threat Management (Cisco, CITI, and more).<br/>
