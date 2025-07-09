@@ -1,4 +1,4 @@
-![Header](./github-header-image (2).png)
+![Header](./github-header-image(2).png)
 
 🎓 CS + Applied Stats @ Purdue Honors College<br>Focus: Machine Intelligence | Minors in Math + Finance<br><br>💻 Technical Stack: Java, Python, C/C++, Solidity, JavaScript/TypeScript, React, Node.js, R, SQL<br><br>🔐 Experience:<br><br>SWE Intern @ Retail Hedging – built JWT-auth Stripe integrations, trading UIs<br><br>Full Stack Intern @ PlaytoonIt – developed cross-platform gaming apps<br><br>Researcher @ Purdue & The Data Mine – analyzed 18K+ survey responses using R & Python<br><br>📊 Interests: AI/ML, Data Science, Full Stack, Smart Contracts, Backend Engineering<br><br>🔗 Projects:<br><br>Freelance DAO: Ethereum-based freelance platform with on-chain arbitration<br><br>Vibe: Java-based social app with real-time messaging + GUI<br><br>📜 Certified in Python, JS, Cybersecurity, Ethical Hacking (Cisco, CITI, etc.)
 
