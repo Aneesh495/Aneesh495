@@ -17,7 +17,7 @@ Versatile full-stack engineer and data scientist with a strong foundation in Jav
 ⚡ **Interests**<br/>
 AI/ML, data engineering, decentralized finance (DeFi), backend & infrastructure, scalable full-stack architectures.<br/><br/>
 
-🛠️ **Selected Projects**<br/>
+🛠️ **Personal Projects**<br/>
 - **Freelance DAO** — Ethereum-based freelance marketplace with on-chain arbitration mechanisms.<br/>
 - **Vibe** — Java-based social networking app featuring real-time messaging and a fully custom GUI.<br/>
 - **Portfolio** - tinyurl.com/Aneesh-Krishna<br/><br/>
