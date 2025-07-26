@@ -1,4 +1,37 @@
 ![Header](./header)
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=4000&pause=500&center=true&vCenter=true&width=800&height=60&lines=Hey%2C+I'm+Krish+👋;Software+Engineer+%7C+AI+Builder+%7C+CS+%2B+Finance+at+Purdue;I+write+clean+code+and+make+cool+things+🧠" alt="Typing SVG" />
+</h1>
+
+<p align="center">
+  <img src="https://github.com/platane/snk/raw/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
+---
+
+### 🚀 Projects I’m building:
+- 🧠 AI resume analyzer built with `Loveable.dev`
+- 📊 GitHub commit farming script (Assembly version dropping now)
+- 💼 Secure JWT-based auth + Stripe-tiered access for startups
+
+---
+
+### 💬 Ask Me About:
+`Java` · `React/TypeScript` · `AI Stuff` · `Cricket` · `Building Side Projects at Warp Speed`
+
+---
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,react,ts,py,git,linux,docker,postgres&theme=dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aneesh495&show_icons=true&theme=radical" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aneesh495&theme=tokyonight" />
+</p>
 
 🎓 **CS + Applied Statistics @ Purdue Honors College**<br/>
 Focus: Machine Intelligence | Minors: Math & Finance<br/><br/>
