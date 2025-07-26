@@ -1,3 +1,30 @@
+name: Snake Commit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  commit-snake:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Git
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Make snake commit
+      run: |
+        FILE=.snake_commit.txt
+        DATE=$(date +'%Y-%m-%d %H:%M:%S')
+        echo "Snake commit on $DATE" >> $FILE
+        git add $FILE
+        git commit -m "🐍 Snake commit on $DATE" || echo "No changes to commit"
+        git push
 name: Generate Snake Animation
 
 on:
