@@ -1,6 +1,6 @@
 ![Header](./header)
 <p align="center">
-  <img src="https://github.com/platane/snk/raw/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://github.com/aneesh495/aneesh495/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 🎓 **CS + Applied Statistics @ Purdue Honors College**<br/>
 Focus: Machine Intelligence | Minors: Math & Finance<br/><br/>
