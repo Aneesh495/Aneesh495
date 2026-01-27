@@ -1,23 +1,11 @@
 ![Header](./header)
-🎓 **CS + Applied Statistics @ Purdue Honors College**<br/>
-Focus: Machine Intelligence | Minors: Math & Finance<br/><br/>
-💡 **About Me**<br/>
-Hi! I’m Aneesh — a curious builder passionate about bridging data, engineering, and design to create impactful, scalable solutions. I enjoy working at the intersection of machine intelligence, finance, and creative technologies.<br/><br/>
-💻 **Tech Focus**<br/>
-Versatile full-stack engineer and data scientist with a strong foundation in Java, Python, C/C++, Solidity, and JavaScript/TypeScript. Experienced across backend systems, smart contracts, and user-facing interfaces.<br/><br/>
-🚀 **Industry Experience**<br/>
-- **SWE Intern @ Retail Hedging** — Architected JWT-auth Stripe integrations and developed trading UIs.<br/>
-- **Full Stack Intern @ PlaytoonIt** — Shipped cross-platform gaming apps, focusing on seamless user experiences.<br/>
-- **Researcher @ Purdue & The Data Mine** — Led data analyses on 18K+ survey responses using R and Python, driving actionable insights.<br/><br/>
+🎓 **CS @ Purdue**<br/>
 
-⚡ **Interests**<br/>
-AI/ML, data engineering, decentralized finance (DeFi), backend & infrastructure, scalable full-stack architectures.<br/><br/>
 🛠️ **Personal Projects**<br/>
 - **Freelance DAO** — Ethereum-based freelance marketplace with on-chain arbitration mechanisms.<br/>
 - **Vibe** — Java-based social networking app featuring real-time messaging and a fully custom GUI.<br/>
 - **Portfolio** - tinyurl.com/Aneesh-Krishna<br/><br/>
-📜 **Certifications**<br/>
-Python, JavaScript, Cybersecurity, Data Science, Artificial Intelligence, Networking, Ethical Hacking, Network Defense, Cyber-Threat Management (Cisco, CITI, and more).<br/>
+
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/aneesh.495) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Aneesh495) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/kingawesome495) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/aneesh495) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/DKE631) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@UCNOrlFea4EaVL4W70oN8wNQ) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:aneeshkrishnaparthasarathy@gmail.com) 
 # 💻 Tech Stack:
