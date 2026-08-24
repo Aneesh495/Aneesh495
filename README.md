@@ -1,13 +1,13 @@
 <a href="https://github.com/Aneesh495">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aneesh495/Aneesh495/main/dark.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aneesh495/Aneesh495/main/light.svg?v=2">
-    <img alt="Aneesh Krishna — Systems Developer, Purdue CS, prev Amazon" src="https://raw.githubusercontent.com/Aneesh495/Aneesh495/main/dark.svg?v=2" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aneesh495/Aneesh495/main/dark.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aneesh495/Aneesh495/main/light.svg?v=4">
+    <img alt="Aneesh Krishna — Systems Developer, Purdue CS, prev Amazon" src="https://raw.githubusercontent.com/Aneesh495/Aneesh495/main/dark.svg?v=4" width="100%">
   </picture>
 </a>
 <br>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Aneesh495/Aneesh495/main/github-jet.svg?v=2" alt="Live GitHub contribution interceptor grid" width="100%" />
+  <img src="https://raw.githubusercontent.com/Aneesh495/Aneesh495/main/github-jet.svg?v=4" alt="Live GitHub contribution interceptor grid" width="100%" />
 </p>
 
 <p align="center">

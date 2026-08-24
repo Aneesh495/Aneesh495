@@ -27,7 +27,7 @@ const PROFILE = {
   signal: "Amazon SysDev · Handshake RLHF",
   signal2: "Caterpillar ML · Founding Engineer",
   lang: "Python, TypeScript, C/C++, Rust, Java",
-  systems: "AArch64 NEON · from-scratch rasterizers",
+  systems: "AArch64 NEON · CPU rasterizers",
   frontend: "React, Next.js, Tailwind, Vite",
   backend: "Node.js, FastAPI, Spring Boot",
   ml: "PyTorch, RLHF, LLM pipelines",
@@ -149,18 +149,12 @@ function originStreak() {
   return { total, years, extra, origin: STREAK_ORIGIN, today: today.stamp };
 }
 
-function kvLine(x, y, key, value, valueClass = "value") {
-  const keyWidth = 13;
-  const col = 44;
-  const label = key.padEnd(keyWidth, " ");
-  const dots = ".".repeat(Math.max(2, col - (`. ${label}: `.length)));
-  return `<tspan x="${x}" y="${y}" class="cc">. </tspan><tspan class="key">${esc(label)}</tspan><tspan class="cc">: ${dots} </tspan><tspan class="${valueClass}">${esc(value)}</tspan>`;
+function kvLine(y, key, value, valueClass = "value") {
+  return `<tspan x="528" y="${y}" class="key">${esc(key)}</tspan><tspan x="636" y="${y}" class="cc">:</tspan><tspan x="652" y="${y}" class="${valueClass}">${esc(value)}</tspan>`;
 }
 
-function continuation(x, y, value, col = 44) {
-  const prefix = `. `;
-  const dots = ".".repeat(Math.max(2, col - prefix.length - 1));
-  return `<tspan x="${x}" y="${y}" class="cc">${prefix}${dots} </tspan><tspan class="value">${esc(value)}</tspan>`;
+function continuation(y, value) {
+  return `<tspan x="652" y="${y}" class="value">${esc(value)}</tspan>`;
 }
 
 function portraitDataUri() {
@@ -171,9 +165,8 @@ function portraitDataUri() {
 
 function buildProfile(theme, stats) {
   const rows = [];
-  const x = 520;
   let y = 40;
-  const lh = 20.6;
+  const lh = 20.4;
 
   const push = (html) => {
     rows.push({ y: Number(y.toFixed(1)), html });
@@ -183,30 +176,30 @@ function buildProfile(theme, stats) {
   const streakLabel = `${stats.streak.toLocaleString("en-US")} days`;
   const uptimeLabel = `${stats.streakYears}y ${stats.streakExtra}d · since ${STREAK_ORIGIN}`;
 
-  push(`<tspan x="${x}" y="${y.toFixed(1)}" class="head">${esc(PROFILE.handle)}</tspan><tspan class="cc">  ——————————————————————————————</tspan>`);
-  push(kvLine(x, y.toFixed(1), "Subject", PROFILE.subject));
-  push(kvLine(x, y.toFixed(1), "Role", PROFILE.role));
-  push(kvLine(x, y.toFixed(1), "Education", PROFILE.education));
-  push(kvLine(x, y.toFixed(1), "Status", PROFILE.status));
-  push(`<tspan x="${x}" y="${y.toFixed(1)}" class="cc">. </tspan>`);
-  push(kvLine(x, y.toFixed(1), "Signal", PROFILE.signal));
-  push(continuation(x, y.toFixed(1), PROFILE.signal2));
-  push(kvLine(x, y.toFixed(1), "Core.Lang", PROFILE.lang));
-  push(kvLine(x, y.toFixed(1), "Core.Systems", PROFILE.systems));
-  push(kvLine(x, y.toFixed(1), "Core.Frontend", PROFILE.frontend));
-  push(kvLine(x, y.toFixed(1), "Core.Backend", PROFILE.backend));
-  push(kvLine(x, y.toFixed(1), "Core.ML", PROFILE.ml));
-  push(kvLine(x, y.toFixed(1), "Core.Infra", PROFILE.infra));
-  push(`<tspan x="${x}" y="${y.toFixed(1)}" class="cc">. </tspan>`);
-  push(`<tspan x="${x}" y="${y.toFixed(1)}" class="accent">- Contact</tspan><tspan class="cc">  ———————————————————————————————</tspan>`);
-  push(kvLine(x, y.toFixed(1), "LinkedIn", PROFILE.linkedin));
-  push(kvLine(x, y.toFixed(1), "GitHub", PROFILE.github));
-  push(kvLine(x, y.toFixed(1), "Email", PROFILE.email));
-  push(`<tspan x="${x}" y="${y.toFixed(1)}" class="cc">. </tspan>`);
-  push(`<tspan x="${x}" y="${y.toFixed(1)}" class="accent">- Live Stats</tspan><tspan class="cc">  —————————————————————————————</tspan>`);
-  push(kvLine(x, y.toFixed(1), "Streak", streakLabel, "streak"));
-  push(kvLine(x, y.toFixed(1), "Uptime", uptimeLabel, "streak"));
-  push(kvLine(x, y.toFixed(1), "Contribs", `${stats.total.toLocaleString("en-US")} last 12 months`));
+  push(`<tspan x="528" y="${y.toFixed(1)}" class="head">${esc(PROFILE.handle)}</tspan>`);
+  push(kvLine(y.toFixed(1), "Subject", PROFILE.subject));
+  push(kvLine(y.toFixed(1), "Role", PROFILE.role));
+  push(kvLine(y.toFixed(1), "Education", PROFILE.education));
+  push(kvLine(y.toFixed(1), "Status", PROFILE.status));
+  push(`<tspan x="528" y="${y.toFixed(1)}" class="cc"> </tspan>`);
+  push(kvLine(y.toFixed(1), "Signal", PROFILE.signal));
+  push(continuation(y.toFixed(1), PROFILE.signal2));
+  push(kvLine(y.toFixed(1), "Core.Lang", PROFILE.lang));
+  push(kvLine(y.toFixed(1), "Core.Systems", PROFILE.systems));
+  push(kvLine(y.toFixed(1), "Core.Frontend", PROFILE.frontend));
+  push(kvLine(y.toFixed(1), "Core.Backend", PROFILE.backend));
+  push(kvLine(y.toFixed(1), "Core.ML", PROFILE.ml));
+  push(kvLine(y.toFixed(1), "Core.Infra", PROFILE.infra));
+  push(`<tspan x="528" y="${y.toFixed(1)}" class="cc"> </tspan>`);
+  push(`<tspan x="528" y="${y.toFixed(1)}" class="accent">- Contact</tspan>`);
+  push(kvLine(y.toFixed(1), "LinkedIn", PROFILE.linkedin));
+  push(kvLine(y.toFixed(1), "GitHub", PROFILE.github));
+  push(kvLine(y.toFixed(1), "Email", PROFILE.email));
+  push(`<tspan x="528" y="${y.toFixed(1)}" class="cc"> </tspan>`);
+  push(`<tspan x="528" y="${y.toFixed(1)}" class="accent">- Live Stats</tspan>`);
+  push(kvLine(y.toFixed(1), "Streak", streakLabel, "streak"));
+  push(kvLine(y.toFixed(1), "Uptime", uptimeLabel, "streak"));
+  push(kvLine(y.toFixed(1), "Contribs", `${stats.total.toLocaleString("en-US")} last 12 months`));
 
   const info = rows.map((r) => `<text x="520" y="0">${r.html}</text>`).join("\n  ");
   const photo = portraitDataUri();
@@ -249,20 +242,20 @@ function buildProfile(theme, stats) {
     </feMerge>
   </filter>
   <clipPath id="portraitClip">
-    <rect x="36" y="78" width="448" height="392" rx="10"/>
+    <rect x="40" y="48" width="436" height="436" rx="12"/>
   </clipPath>
   <linearGradient id="photoVeil" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="${theme.overlay}" stop-opacity="0.08"/>
-    <stop offset="70%" stop-color="${theme.overlay}" stop-opacity="0.02"/>
-    <stop offset="100%" stop-color="${theme.bg0}" stop-opacity="0.22"/>
+    <stop offset="0%" stop-color="${theme.overlay}" stop-opacity="0.03"/>
+    <stop offset="78%" stop-color="${theme.overlay}" stop-opacity="0"/>
+    <stop offset="100%" stop-color="${theme.bg0}" stop-opacity="0.18"/>
   </linearGradient>
   <style>
-    .key    { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: ${theme.key}; font-weight: bold; }
-    .value  { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: ${theme.value}; font-weight: 500; }
-    .cc     { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: ${theme.dim}; }
-    .head   { font-family: 'Courier New', Consolas, monospace; font-size: 17px; fill: ${theme.head}; font-weight: bold; }
-    .accent { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: ${theme.accent}; font-weight: bold; }
-    .streak { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: ${theme.head}; font-weight: bold; }
+    .key    { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: ${theme.key}; font-weight: bold; }
+    .value  { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: ${theme.value}; font-weight: 500; }
+    .cc     { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: ${theme.dim}; }
+    .head   { font-family: 'Courier New', Consolas, monospace; font-size: 16px; fill: ${theme.head}; font-weight: bold; }
+    .accent { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: ${theme.accent}; font-weight: bold; }
+    .streak { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: ${theme.head}; font-weight: bold; }
     text, tspan { white-space: pre; }
     .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: ${theme.term}; letter-spacing: 0.5px; opacity: 0.9; }
     .scan-label { font-family: 'Courier New', Consolas, monospace; font-size: 10px; fill: ${theme.hire}; letter-spacing: 1.4px; font-weight: bold; }
@@ -295,28 +288,20 @@ function buildProfile(theme, stats) {
   <text x="30" y="14" class="panel-title-blue">VISUAL.MAP // BIOMETRIC</text>
   <text x="524" y="6" class="panel-title">SYSTEM.INFO</text>
 
-  <image x="36" y="78" width="448" height="392" href="${photo}" xlink:href="${photo}" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)"/>
-  <rect x="36" y="78" width="448" height="392" rx="10" fill="url(#photoVeil)" clip-path="url(#portraitClip)"/>
-  <rect x="36" y="78" width="448" height="392" rx="10" fill="url(#scanlines)" clip-path="url(#portraitClip)"/>
+  <image x="52" y="60" width="412" height="412" href="${photo}" xlink:href="${photo}" preserveAspectRatio="xMidYMid meet" clip-path="url(#portraitClip)"/>
+  <rect x="40" y="48" width="436" height="22" fill="${theme.bg0}" opacity="0.42"/>
+  <text x="52" y="63" class="hud-tiny">CAM.01  ·  LOCK  ·  0xA495</text>
+  <rect x="40" y="462" width="436" height="22" fill="${theme.bg0}" opacity="0.48"/>
+  <text x="52" y="477" class="hud-tiny">ANEESH KRISHNA  ·  SYS.DEV  ·  PURDUE</text>
 
-  <rect x="36" y="78" width="448" height="18" fill="${theme.bg0}" opacity="0.55"/>
-  <text x="48" y="91" class="hud-tiny">CAM.01  ·  LOCK  ·  0xA495</text>
-  <rect x="36" y="452" width="448" height="18" fill="${theme.bg0}" opacity="0.62"/>
-  <text x="48" y="465" class="hud-tiny">ANEESH KRISHNA  ·  SYS.DEV  ·  PURDUE</text>
-
-  <!-- HUD corner brackets -->
   <g fill="none" stroke="${theme.photoGlow}" stroke-width="1.6" filter="url(#softGlow)">
-    <path d="M36 104 V78 H62"/>
-    <path d="M458 78 H484 V104"/>
-    <path d="M36 444 V470 H62"/>
-    <path d="M458 470 H484 V444"/>
+    <path d="M40 76 V48 H68"/>
+    <path d="M448 48 H476 V76"/>
+    <path d="M40 456 V484 H68"/>
+    <path d="M448 484 H476 V456"/>
   </g>
 
-  <rect x="36" y="70" width="448" height="10" fill="url(#scanGrad)" opacity="0.85" clip-path="url(#portraitClip)">
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 400; 0 0" dur="4.8s" repeatCount="indefinite"/>
-  </rect>
-
-  <text x="36" y="498" class="hud-meta">ID.LOCK CONFIRMED  ·  AMAZON  ·  HANDSHAKE  ·  CATERPILLAR</text>
+  <text x="40" y="508" class="hud-meta">ID.LOCK CONFIRMED  ·  AMAZON  ·  HANDSHAKE  ·  CATERPILLAR</text>
 
   ${info}
 
