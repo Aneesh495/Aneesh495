@@ -35,6 +35,7 @@ const PROFILE = {
   linkedin: "linkedin.com/in/aneesh495",
   github: "github.com/Aneesh495",
   email: "aneeshkrishnaparthasarathy@gmail.com",
+  portfolio: "tinyurl.com/aneesh495",
 };
 
 const DARK = {
@@ -166,7 +167,7 @@ function portraitDataUri() {
 function buildProfile(theme, stats) {
   const rows = [];
   let y = 40;
-  const lh = 20.4;
+  const lh = 19.8;
 
   const push = (html) => {
     rows.push({ y: Number(y.toFixed(1)), html });
@@ -192,6 +193,7 @@ function buildProfile(theme, stats) {
   push(kvLine(y.toFixed(1), "Core.Infra", PROFILE.infra));
   push(`<tspan x="528" y="${y.toFixed(1)}" class="cc"> </tspan>`);
   push(`<tspan x="528" y="${y.toFixed(1)}" class="accent">- Contact</tspan>`);
+  push(kvLine(y.toFixed(1), "Portfolio", PROFILE.portfolio));
   push(kvLine(y.toFixed(1), "LinkedIn", PROFILE.linkedin));
   push(kvLine(y.toFixed(1), "GitHub", PROFILE.github));
   push(kvLine(y.toFixed(1), "Email", PROFILE.email));
