@@ -19,14 +19,3 @@
 </p>
 
 ---
-
-**Now** — Systems Developer Intern @ Amazon (pricing infra + zero-trust auth)  
-**CS** — Purdue University  
-**Also** — Handshake (RLHF / model alignment) · Caterpillar (ML inference / MLOps) · Founding Engineer
-
-| Build | What it proves |
-| --- | --- |
-| [Cathode](https://github.com/Aneesh495/cathode) | Real-time CPU graphics. Handwritten AArch64 NEON kernels, from-scratch rasterizer / ray marcher / path tracer. No GPU, no libraries. |
-| [Freelance DAO](https://github.com/Aneesh495/freelance-DAO) | On-chain freelance platform with multi-sig dispute resolution. Contracts benchmarked and tuned for gas. |
-| [Contract Analyzer](https://github.com/Aneesh495/Contract-Analyzer) | LLM pipeline that parses and summarizes resumes and contracts. |
-| [Boiler Reviews](https://github.com/Aneesh495/Boiler-Reviews) | Course reviews and aggregates on Flask + SQLite with parameterized queries and server-side validation. |
