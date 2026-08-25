@@ -40,7 +40,7 @@
 <!-- HUD -->
 <g transform="translate(28,24)">
   <text class="hud-label-gold">SCORE:</text>
-  <text x="78" class="hud-val-gold">7,653,000 PTS</text>
+  <text x="78" class="hud-val-gold">7,654,000 PTS</text>
 </g>
 <g transform="translate(340,24)">
   <text class="hud-label-cyan">RANK:</text>
@@ -52,7 +52,7 @@
 </g>
 <g transform="translate(28,48)">
   <text class="hud-label-rose">COMBO:</text>
-  <text x="72" class="hud-val-rose">x2,623 STREAK</text>
+  <text x="72" class="hud-val-rose">x2,624 STREAK</text>
 </g>
 
 <text x="128" y="88" class="axis-label">AUG</text>
@@ -445,7 +445,7 @@
 <rect x="995" y="204" width="13" height="13" rx="2.5" fill="#0F766E" stroke="#5EEAD4" stroke-width="0.3"><title>11 on 2026-08-22</title></rect>
 <rect x="1012" y="102" width="13" height="13" rx="2.5" fill="#0F766E" stroke="#5EEAD4" stroke-width="0.3"><title>10 on 2026-08-23</title></rect>
 <rect x="1012" y="119" width="13" height="13" rx="2.5" fill="#0F766E" stroke="#5EEAD4" stroke-width="0.3"><title>19 on 2026-08-24</title></rect>
-<rect x="1012" y="136" width="13" height="13" rx="2.5" fill="#0F766E" stroke="#5EEAD4" stroke-width="0.3"><title>18 on 2026-08-25</title></rect>
+<rect x="1012" y="136" width="13" height="13" rx="2.5" fill="#0F766E" stroke="#5EEAD4" stroke-width="0.3"><title>19 on 2026-08-25</title></rect>
 <rect x="1012" y="153" width="13" height="13" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 on untracked</title></rect>
 <rect x="1012" y="170" width="13" height="13" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 on untracked</title></rect>
 <rect x="1012" y="187" width="13" height="13" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 on untracked</title></rect>
