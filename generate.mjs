@@ -175,7 +175,7 @@ function buildProfile(theme, stats) {
   };
 
   const streakLabel = `${stats.streak.toLocaleString("en-US")} days`;
-  const uptimeLabel = `${stats.streakYears}y ${stats.streakExtra}d · since ${STREAK_ORIGIN}`;
+  const uptimeLabel = `${stats.streakYears}y ${stats.streakExtra}d`;
 
   push(`<tspan x="528" y="${y.toFixed(1)}" class="head">${esc(PROFILE.handle)}</tspan>`);
   push(kvLine(y.toFixed(1), "Subject", PROFILE.subject));
@@ -571,7 +571,7 @@ function buildJetSvg(weeks, username) {
 </g>
 <g transform="translate(28,48)">
   <text class="hud-label-rose">COMBO:</text>
-  <text x="72" class="hud-val-rose">x${combo} STREAK · CONTINUOUS SINCE 2019.06.20</text>
+  <text x="72" class="hud-val-rose">x${combo} STREAK</text>
 </g>
 
 ${buildMonthLabels(cells)}
