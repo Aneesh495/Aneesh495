@@ -1,7 +1,5 @@
 # Aneesh Krishna
 
-Most of my time goes to things that have to be fast and correct.
-
 **Systems**  
 [cathode](https://github.com/Aneesh495/cathode) — CPU-only renderer, hand NEON in the hot path, full NTSC/CRT signal chain in software, no GPU  
 [lockstep](https://github.com/Aneesh495/lockstep) — C++ matching and market-data path for an electronic exchange  
