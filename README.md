@@ -6,12 +6,11 @@
 
 **Applied math / data**  
 [ipl](https://github.com/Aneesh495/ipl) — ball-by-ball IPL pipeline on Cricsheet JSON; aggregates, viz, sklearn models  
-[metricon](https://github.com/Aneesh495/metricon) — quiz performance analytics from export JSON; React + Express  
+[metricon](https://github.com/Aneesh495/metricon) — performance analytics from export JSON; React + Express  
 
 **Product engineering**  
 [covenant](https://github.com/Aneesh495/covenant) — PDF/DOCX ingest, extraction, LLM-backed review, Drizzle + Postgres  
-[lancechain](https://github.com/Aneesh495/lancechain) — Hardhat escrow + ethers operator console  
-[portfolio](https://github.com/Aneesh495/portfolio) — Vite/React + Express monorepo, shared schema  
+[lancechain](https://github.com/Aneesh495/lancechain) — Hardhat escrow + ethers operator console    
 
 **Everything else**  
 [leetcode](https://github.com/Aneesh495/leetcode) — 750+ accepted solutions, mostly C++  
