@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Profile lockup — Instrument Serif wordmark, transparent.
+ * Profile lockup  -  Instrument Serif wordmark, transparent.
  * node generate.mjs
  */
 
