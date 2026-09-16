@@ -15,6 +15,4 @@
 
 **Everything else**  
 [leetcode](https://github.com/Aneesh495/leetcode) — 750+ accepted solutions, mostly C++  
-[boiler-reviews](https://github.com/Aneesh495/boiler-reviews) — Flask/SQLite, parameterized SQL, transactional aggregates  
-
-If you care about latency, invariants, or a repo that reads like someone actually ran it: start with **cathode** or **lockstep**.
+[boiler-reviews](https://github.com/Aneesh495/boiler-reviews) — Flask/SQLite, parameterized SQL, transactional aggregates
