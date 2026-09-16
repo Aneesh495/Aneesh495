@@ -1,21 +1,11 @@
 # Aneesh Krishna
 
-Systems and full-stack engineer. Performance-sensitive tooling, data pipelines,
-and product-shaped web apps.
-
-## Selected work
-
-| Project | Focus |
-| --- | --- |
-| [cathode](https://github.com/Aneesh495/cathode) | CPU graphics engine, NTSC/CRT DSP, AArch64 NEON |
-| [lockstep](https://github.com/Aneesh495/lockstep) | Electronic trading exchange |
-| [covenant](https://github.com/Aneesh495/covenant) | Document analysis SaaS |
-| [lancechain](https://github.com/Aneesh495/lancechain) | Escrow marketplace contracts + wallet console |
-| [metricon](https://github.com/Aneesh495/metricon) | Quiz performance analytics |
-| [boiler-reviews](https://github.com/Aneesh495/boiler-reviews) | Flask course reviews |
-| [leetcode](https://github.com/Aneesh495/leetcode) | Accepted solutions archive |
-| [ipl](https://github.com/Aneesh495/ipl) | Cricket analytics on Cricsheet JSON |
-
-## Contact
-
-[@Aneesh495](https://github.com/Aneesh495)
+[cathode](https://github.com/Aneesh495/cathode) · CPU renderer, CRT/NTSC pipeline  
+[lockstep](https://github.com/Aneesh495/lockstep) · matching and market data  
+[covenant](https://github.com/Aneesh495/covenant) · document ingest and review  
+[lancechain](https://github.com/Aneesh495/lancechain) · on-chain escrow  
+[metricon](https://github.com/Aneesh495/metricon) · quiz export analytics  
+[portfolio](https://github.com/Aneesh495/portfolio) · site  
+[leetcode](https://github.com/Aneesh495/leetcode) · solutions  
+[ipl](https://github.com/Aneesh495/ipl) · Cricsheet IPL tooling  
+[boiler-reviews](https://github.com/Aneesh495/boiler-reviews) · course reviews (Flask)
