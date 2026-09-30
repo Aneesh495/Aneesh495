@@ -11,7 +11,7 @@
 [lockstep](https://github.com/Aneesh495/lockstep): C++ matching and market-data path for an electronic exchange  
 
 **Data**  
-[ipl](https://github.com/Aneesh495/ipl): ball-by-ball IPL pipeline on Cricsheet JSON; aggregates, viz, sklearn models  
+[ipl](https://github.com/Aneesh495/ipl): 1,243-match Cricsheet chase lab; win-probability replay, next-ball model, temporal calibration audit  
 [metricon](https://github.com/Aneesh495/metricon): performance analytics from export JSON; React + Express  
 
 **Product**  
