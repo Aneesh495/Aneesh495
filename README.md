@@ -10,6 +10,7 @@
 [glyph](https://github.com/Aneesh495/glyph): strict functional programming language and toolchain written end-to-end in OCaml  
 [lockstep](https://github.com/Aneesh495/lockstep): C++ matching and market-data path for an electronic exchange  
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
+[vibe](https://github.com/Aneesh495/vibe): distributed messenger, custom Java NIO TLS reactor, binary wire protocol, Raft quorum commit, segmented WAL  
 
 **Data**  
 [ipl](https://github.com/Aneesh495/ipl): 1,243-match Cricsheet chase lab; win-probability replay, next-ball model, temporal calibration audit  
