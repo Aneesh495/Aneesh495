@@ -17,7 +17,7 @@
 
 **Product**  
 [covenant](https://github.com/Aneesh495/covenant): PDF/DOCX contract and resume review, source-linked findings, policy/ATS checks, durable Postgres workers<br>
-[lancechain](https://github.com/Aneesh495/lancechain): Hardhat escrow + ethers operator console
+[lancechain](https://github.com/Aneesh495/lancechain): Hardhat escrow + ethers operator console<br>
 [vibe](https://github.com/Aneesh495/vibe): distributed messenger, custom Java NIO TLS reactor, binary wire protocol, Raft quorum commit, segmented WAL  
 
 **Rest**  
