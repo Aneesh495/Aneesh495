@@ -16,7 +16,7 @@
 [metricon](https://github.com/Aneesh495/metricon): performance analytics from export JSON; React + Express  
 
 **Product**  
-[covenant](https://github.com/Aneesh495/covenant): PDF/DOCX ingest, extraction, LLM-backed review, Drizzle + Postgres  
+[covenant](https://github.com/Aneesh495/covenant): PDF/DOCX contract and resume review, source-linked findings, policy/ATS checks, durable Postgres workers<br>
 [lancechain](https://github.com/Aneesh495/lancechain): Hardhat escrow + ethers operator console    
 
 **Rest**  
