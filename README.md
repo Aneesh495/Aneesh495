@@ -14,13 +14,13 @@
 
 **Data**  
 [ipl](https://github.com/Aneesh495/ipl): 1,243-match Cricsheet chase lab; win-probability replay, next-ball model, temporal calibration audit  
-[metricon](https://github.com/Aneesh495/metricon): performance analytics from export JSON; React + Express  
+[metricon](https://github.com/Aneesh495/metricon): quiz and drill telemetry from browser JSON snapshots; attempt normalization, rolling accuracy, difficulty heuristics  
 
 **Product**  
 [covenant](https://github.com/Aneesh495/covenant): PDF/DOCX contract and resume review, source-linked findings, policy/ATS checks, durable Postgres workers<br>
-[lancechain](https://github.com/Aneesh495/lancechain): Hardhat escrow + ethers operator console<br>
+[lancechain](https://github.com/Aneesh495/lancechain): Solidity milestone escrow, EIP-712/1271 dual-sig, non-reentrant pull ledger, reorg-aware Postgres indexer<br>
 [vibe](https://github.com/Aneesh495/vibe): distributed messenger, custom Java NIO TLS reactor, binary wire protocol, Raft quorum commit, segmented WAL  
 
 **Rest**  
 [leetcode](https://github.com/Aneesh495/leetcode): 1000+ accepted solutions  
-[boiler-reviews](https://github.com/Aneesh495/boiler-reviews): Flask/SQLite, parameterized SQL, transactional aggregates
+[boiler-reviews](https://github.com/Aneesh495/boiler-reviews): course intelligence and degree audit, prerequisite AST, multi-term constraint planner, durable worker
