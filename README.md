@@ -16,6 +16,7 @@
 [glyph](https://github.com/Aneesh495/glyph): strict functional programming language and toolchain written end-to-end in OCaml  
 
 **Data**  
+[tn26](https://github.com/Aneesh495/tn26): Tamil Nadu electoral modeling, spatial econometrics, ecological inference, and coalition game theory  
 [ipl](https://github.com/Aneesh495/ipl): 1,243-match Cricsheet chase lab; win-probability replay, next-ball model, temporal calibration audit  
 [metricon](https://github.com/Aneesh495/metricon): quiz and drill telemetry from browser JSON snapshots; attempt normalization, rolling accuracy, difficulty heuristics  
 
