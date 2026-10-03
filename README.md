@@ -6,12 +6,14 @@
 [planck](https://github.com/Aneesh495/planck): cycle-accurate out-of-order RV32IM core, cache hierarchy, and assembler in pure x86-64 assembly   
 
 **Systems**  
-[splice](https://github.com/Aneesh495/splice): Unix shell, quote-preserving parser, native process runtime, job control  
-[zenith](https://github.com/Aneesh495/zenith): WebAssembly 2.0 virtual machine, WASI runtime, compiler, and TUI debugger in pure PHP, zero dependencies  
 [vectortick](https://github.com/Aneesh495/VectorTick): C++20 columnar market-data engine with SSA IR, vector VM, and custom x86-64/AArch64 JIT  
-[glyph](https://github.com/Aneesh495/glyph): strict functional programming language and toolchain written end-to-end in OCaml  
 [lockstep](https://github.com/Aneesh495/lockstep): C++ matching and market-data path for an electronic exchange  
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
+
+**Languages**  
+[splice](https://github.com/Aneesh495/splice): Unix shell, quote-preserving parser, native process runtime, job control  
+[zenith](https://github.com/Aneesh495/zenith): WebAssembly 2.0 virtual machine, WASI runtime, compiler, and TUI debugger in pure PHP, zero dependencies  
+[glyph](https://github.com/Aneesh495/glyph): strict functional programming language and toolchain written end-to-end in OCaml  
 
 **Data**  
 [ipl](https://github.com/Aneesh495/ipl): 1,243-match Cricsheet chase lab; win-probability replay, next-ball model, temporal calibration audit  
