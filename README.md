@@ -9,6 +9,7 @@
 [vectortick](https://github.com/Aneesh495/VectorTick): C++20 columnar market-data engine with SSA IR, vector VM, and custom x86-64/AArch64 JIT  
 [lockstep](https://github.com/Aneesh495/lockstep): C++ matching and market-data path for an electronic exchange  
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
+[skein](https://github.com/Aneesh495/skein): exact causal reliability in Perl, ROBDDs/ZDDs, shared-noise counterfactuals, adaptive diagnosis  
 
 **Languages**  
 [splice](https://github.com/Aneesh495/splice): Unix shell, quote-preserving parser, native process runtime, job control  
