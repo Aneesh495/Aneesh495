@@ -19,6 +19,7 @@
 **Data**  
 [vectortick](https://github.com/Aneesh495/VectorTick): C++20 columnar market-data engine with SSA IR, vector VM, and custom x86-64/AArch64 JIT  
 [tessera](https://github.com/Aneesh495/tessera): multi-model storage engine in Zig: leveled LSM-tree, SIMD HNSW index, dynamic CSR graph, MVCC  
+[prism](https://github.com/Aneesh495/prism): incremental semiring dataflow and Datalog engine in Scala 3: multidimensional lattices, Magic Sets, e-graphs  
 [skein](https://github.com/Aneesh495/skein): exact causal reliability lab in Perl: counterfactual queries, ROBDD inference, rational probabilities  
 [ipl](https://github.com/Aneesh495/ipl): 1,243-match Cricsheet chase lab; win-probability replay, next-ball model, temporal calibration audit  
 
