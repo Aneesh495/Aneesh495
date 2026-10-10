@@ -28,7 +28,3 @@
 [lancechain](https://github.com/Aneesh495/lancechain): Solidity milestone escrow, EIP-712/1271 dual-sig, non-reentrant pull ledger, reorg-aware Postgres indexer<br>
 [vibe](https://github.com/Aneesh495/vibe): distributed messenger, custom Java NIO TLS reactor, binary wire protocol, Raft quorum commit, segmented WAL<br>
 [metricon](https://github.com/Aneesh495/metricon): quiz and drill telemetry from browser JSON snapshots; attempt normalization, rolling accuracy, difficulty heuristics  
-
-**Rest**  
-[leetcode](https://github.com/Aneesh495/leetcode): 1000+ accepted solutions  
-[boiler-reviews](https://github.com/Aneesh495/boiler-reviews): course intelligence and degree audit, prerequisite AST, multi-term constraint planner, durable worker
