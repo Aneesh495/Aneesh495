@@ -17,6 +17,7 @@
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
 
 **Machine Learning**  
+[noema](https://github.com/Aneesh495/noema): neural theorem prover for Lean 4, 24-block Transformer, PageRank premise retrieval, AND/OR hypergraphs, Merkle audit  
 [isopleth](https://github.com/Aneesh495/isopleth): conservation-aware neural operator, multiscale face fluxes, telescopic conservation, adjoint solver  
 
 **Data**  
