@@ -19,7 +19,7 @@
 **Machine Learning**  
 [noema](https://github.com/Aneesh495/noema): neural theorem prover for Lean 4, 24-block Transformer, PageRank premise retrieval, AND/OR hypergraphs, Merkle audit  
 [isopleth](https://github.com/Aneesh495/isopleth): conservation-aware neural operator, multiscale face fluxes, telescopic conservation, adjoint solver  
-[kinesis](https://github.com/Aneesh495/kinesis-control): epistemic world-model control lab; symplectic leapfrog RSSM, ensemble disagreement MPPI, polyhedral CBF shield, causal twin-world audit  
+[kinesis](https://github.com/Aneesh495/kinesis): epistemic world-model control lab; symplectic leapfrog RSSM, ensemble disagreement MPPI, polyhedral CBF shield, causal twin-world audit  
 
 **Data**  
 [vectortick](https://github.com/Aneesh495/VectorTick): C++20 columnar market-data engine with SSA IR, vector VM, and custom x86-64/AArch64 JIT  
