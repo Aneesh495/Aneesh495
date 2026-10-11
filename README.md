@@ -12,6 +12,7 @@
 [zenith](https://github.com/Aneesh495/zenith): WebAssembly 2.0 virtual machine, WASI runtime, compiler, and TUI debugger in pure PHP, zero dependencies  
 
 **Systems**  
+[quartz](https://github.com/Aneesh495/quartz): deterministic physical-layer laboratory in D: rational sample clocks, root-raised-cosine filtering, cyclic-prefix OFDM, Alamouti/MIMO MMSE, bit-exact replay  
 [stratum](https://github.com/Aneesh495/stratum-os): preemptive SMP x86-64 kernel: UEFI loader, 4-level paging COW, virtio net/blk, journaled StrataFS  
 [splice](https://github.com/Aneesh495/splice): inspectable POSIX shell in C++20: quote-preserving AST, descriptor plan, process groups, PTY runtime  
 [lockstep](https://github.com/Aneesh495/lockstep): C++ matching and market-data path for an electronic exchange  
