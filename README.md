@@ -31,6 +31,7 @@
 [prism](https://github.com/Aneesh495/prism): incremental semiring dataflow and Datalog engine in Scala 3: multidimensional lattices, Magic Sets, e-graphs  
 [skein](https://github.com/Aneesh495/skein): exact causal reliability lab in Perl: counterfactual queries, ROBDD inference, rational probabilities  
 [ipl](https://github.com/Aneesh495/ipl): 1,243-match Cricsheet chase lab; win-probability replay, next-ball model, temporal calibration audit  
+[tn26](https://github.com/Aneesh495/tn26): 234-constituency Tamil Nadu 2026 election lab; ecological inference, synthetic control, polling forensics  
 
 **Product**  
 [covenant](https://github.com/Aneesh495/covenant): PDF/DOCX contract and resume review, source-linked findings, policy/ATS checks, durable Postgres workers<br>
