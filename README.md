@@ -18,6 +18,7 @@
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
 
 **Machine Learning**  
+[asterion](https://github.com/Aneesh495/asterion): equivariant molecular potential laboratory; SE(3) geometric tensors, conservative coordinate gradients, calibrated committee uncertainty, symplectic Verlet dynamics  
 [nocturne](https://github.com/Aneesh495/nocturne): probabilistic learning of neural population dynamics; continuous Neural ODE VLDM, spatiotemporal axial attention, RoPE Lie algebra, sub-5ms causal streaming, closed-loop neuromodulation, 5-family ablation matrix  
 [noema](https://github.com/Aneesh495/noema): neural theorem prover for Lean 4, 24-block Transformer, PageRank premise retrieval, AND/OR hypergraphs, Merkle audit  
 [isopleth](https://github.com/Aneesh495/isopleth): conservation-aware neural operator, multiscale face fluxes, telescopic conservation, adjoint solver  
