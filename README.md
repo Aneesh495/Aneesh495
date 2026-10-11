@@ -6,6 +6,7 @@
 [planck](https://github.com/Aneesh495/planck): cycle-accurate out-of-order RV32IM core, cache hierarchy, and assembler in pure x86-64 assembly   
 
 **Compilers**  
+[fathom](https://github.com/Aneesh495/fathom): Scala 3 kernel in Go: path-dependent types, coinductive subtyping, given synthesis, bytecode stack VM, mark-sweep GC  
 [cinder](https://github.com/Aneesh495/cinder): C17 compiler in pure C: SSA IR, register allocator, direct x86-64 ELF64 emitter, no assembler  
 [glyph](https://github.com/Aneesh495/glyph): functional language in OCaml: Hindley-Milner typing, Maranget decision trees, register VM, Cheney GC  
 [zenith](https://github.com/Aneesh495/zenith): WebAssembly 2.0 virtual machine, WASI runtime, compiler, and TUI debugger in pure PHP, zero dependencies  
