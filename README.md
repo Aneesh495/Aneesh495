@@ -6,24 +6,24 @@
 [planck](https://github.com/Aneesh495/planck): cycle-accurate out-of-order RV32IM core, cache hierarchy, and assembler in pure x86-64 assembly   
 
 **Compilers**  
-[fathom](https://github.com/Aneesh495/fathom): Scala 3 kernel in Go: path-dependent types, coinductive subtyping, given synthesis, bytecode stack VM, mark-sweep GC  
+[fathom](https://github.com/Aneesh495/fathom): Scala 3 kernel in Go: path-dependent types, coinductive subtyping, givens, bytecode stack VM, mark-sweep GC  
 [cinder](https://github.com/Aneesh495/cinder): C17 compiler in pure C: SSA IR, register allocator, direct x86-64 ELF64 emitter, no assembler  
 [glyph](https://github.com/Aneesh495/glyph): functional language in OCaml: Hindley-Milner typing, Maranget decision trees, register VM, Cheney GC  
 [zenith](https://github.com/Aneesh495/zenith): WebAssembly 2.0 virtual machine, WASI runtime, compiler, and TUI debugger in pure PHP, zero dependencies  
 
 **Systems**  
-[quartz](https://github.com/Aneesh495/quartz): deterministic physical-layer laboratory in D: rational sample clocks, root-raised-cosine filtering, cyclic-prefix OFDM, Alamouti/MIMO MMSE, bit-exact replay  
+[quartz](https://github.com/Aneesh495/quartz): deterministic physical-layer lab in D: rational clocks, RRC filtering, cyclic OFDM, Alamouti MIMO MMSE  
 [stratum](https://github.com/Aneesh495/stratum-os): preemptive SMP x86-64 kernel: UEFI loader, 4-level paging COW, virtio net/blk, journaled StrataFS  
 [splice](https://github.com/Aneesh495/splice): inspectable POSIX shell in C++20: quote-preserving AST, descriptor plan, process groups, PTY runtime  
 [lockstep](https://github.com/Aneesh495/lockstep): C++ matching and market-data path for an electronic exchange  
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
 
 **Machine Learning**  
-[asterion](https://github.com/Aneesh495/asterion): equivariant molecular potential laboratory; SE(3) geometric tensors, conservative coordinate gradients, calibrated committee uncertainty, symplectic Verlet dynamics  
-[nocturne](https://github.com/Aneesh495/nocturne): probabilistic learning of neural population dynamics; continuous Neural ODE VLDM, spatiotemporal axial attention, RoPE Lie algebra, sub-5ms causal streaming, closed-loop neuromodulation, 5-family ablation matrix  
+[asterion](https://github.com/Aneesh495/asterion): equivariant molecular potential lab; SE(3) geometric tensors, conservative forces, Verlet dynamics  
+[nocturne](https://github.com/Aneesh495/nocturne): neural population dynamics; Neural ODE VLDM, axial attention, Lie RoPE, sub-5ms causal streaming  
 [noema](https://github.com/Aneesh495/noema): neural theorem prover for Lean 4, 24-block Transformer, PageRank premise retrieval, AND/OR hypergraphs, Merkle audit  
 [isopleth](https://github.com/Aneesh495/isopleth): conservation-aware neural operator, multiscale face fluxes, telescopic conservation, adjoint solver  
-[kinesis](https://github.com/Aneesh495/kinesis): epistemic world-model control lab; symplectic leapfrog RSSM, ensemble disagreement MPPI, polyhedral CBF shield, causal twin-world audit  
+[kinesis](https://github.com/Aneesh495/kinesis): epistemic world-model control lab; symplectic leapfrog RSSM, disagreement MPPI, polyhedral CBF shield  
 
 **Data**  
 [vectortick](https://github.com/Aneesh495/VectorTick): C++20 columnar market-data engine with SSA IR, vector VM, and custom x86-64/AArch64 JIT  
@@ -36,4 +36,4 @@
 [covenant](https://github.com/Aneesh495/covenant): PDF/DOCX contract and resume review, source-linked findings, policy/ATS checks, durable Postgres workers<br>
 [lancechain](https://github.com/Aneesh495/lancechain): Solidity milestone escrow, EIP-712/1271 dual-sig, non-reentrant pull ledger, reorg-aware Postgres indexer<br>
 [vibe](https://github.com/Aneesh495/vibe): distributed messenger, custom Java NIO TLS reactor, binary wire protocol, Raft quorum commit, segmented WAL<br>
-[metricon](https://github.com/Aneesh495/metricon): quiz and drill telemetry from browser JSON snapshots; attempt normalization, rolling accuracy, difficulty heuristics  
+[metricon](https://github.com/Aneesh495/metricon): learning analytics from JSON telemetry; attempt normalization, rolling accuracy, difficulty heuristics  
