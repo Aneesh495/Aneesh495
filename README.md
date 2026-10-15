@@ -10,7 +10,6 @@
 **Compilers**  
 [cinder](https://github.com/Aneesh495/cinder): C17 compiler in pure C: SSA IR, register allocator, direct x86-64 ELF64 emitter, no assembler  
 [glyph](https://github.com/Aneesh495/glyph): functional language in OCaml: Hindley-Milner typing, Maranget decision trees, register VM, Cheney GC  
-[fathom](https://github.com/Aneesh495/fathom): Scala 3 kernel in Go: path-dependent types, coinductive subtyping, givens, bytecode stack VM, mark-sweep GC  
 
 **Data**  
 [vectortick](https://github.com/Aneesh495/VectorTick): C++20 columnar market-data engine with SSA IR, vector VM, and custom x86-64/AArch64 JIT  
