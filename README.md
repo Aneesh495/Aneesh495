@@ -10,7 +10,7 @@
 [cinder](https://github.com/Aneesh495/cinder): C17 compiler in pure C: SSA IR, register allocator, direct x86-64 ELF64 emitter, no assembler  
 [glyph](https://github.com/Aneesh495/glyph): functional language in OCaml: Hindley-Milner typing, Maranget decision trees, register VM, Cheney GC  
 [zenith](https://github.com/Aneesh495/zenith): WebAssembly 2.0 virtual machine, WASI runtime, compiler, and TUI debugger in pure PHP, zero dependencies  
-[vellum](https://github.com/Aneesh495/vellum): zero-knowledge proof synthesis engine in pure Ruby: arithmetic circuit abstract machine, R1CS/QAP lowering, Groth16/Plonk/STARKs, pairings, EVM codegen  
+[vellum](https://github.com/Aneesh495/vellum): zero-knowledge engine in Ruby: R1CS/QAP, Groth16, Plonk, STARKs, pairings, EVM codegen  
 
 **Systems**  
 [meridian](https://github.com/Aneesh495/meridian): distributed execution fabric in pure Go: Multi-Raft, MVCC/ART, Wound-Wait 2PC, deterministic replay, vectorized SQL  
@@ -19,7 +19,7 @@
 [splice](https://github.com/Aneesh495/splice): inspectable POSIX shell in C++20: quote-preserving AST, descriptor plan, process groups, PTY runtime  
 [lockstep](https://github.com/Aneesh495/lockstep): C++ matching and market-data path for an electronic exchange  
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
-[helix](https://github.com/Aneesh495/helix): leaderless distributed transaction kernel in pure Elixir: egalitarian Paxos, Block-STM parallel execution, sparse Merkle trees, delta-CRDTs, and deterministic chaos simulation  
+[helix](https://github.com/Aneesh495/helix): leaderless transaction kernel in Elixir: EPaxos, Block-STM, Merkle proofs, delta-CRDTs  
 
 **Machine Learning**  
 [asterion](https://github.com/Aneesh495/asterion): equivariant molecular potential lab; SE(3) geometric tensors, conservative forces, Verlet dynamics  
