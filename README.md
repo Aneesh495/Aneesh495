@@ -9,8 +9,6 @@
 [fathom](https://github.com/Aneesh495/fathom): Scala 3 kernel in Go: path-dependent types, coinductive subtyping, givens, bytecode stack VM, mark-sweep GC  
 [cinder](https://github.com/Aneesh495/cinder): C17 compiler in pure C: SSA IR, register allocator, direct x86-64 ELF64 emitter, no assembler  
 [glyph](https://github.com/Aneesh495/glyph): functional language in OCaml: Hindley-Milner typing, Maranget decision trees, register VM, Cheney GC  
-[zenith](https://github.com/Aneesh495/zenith): WebAssembly 2.0 virtual machine, WASI runtime, compiler, and TUI debugger in pure PHP, zero dependencies  
-[vellum](https://github.com/Aneesh495/vellum): zero-knowledge engine in Ruby: R1CS/QAP, Groth16, Plonk, STARKs, pairings, EVM codegen  
 
 **Systems**  
 [meridian](https://github.com/Aneesh495/meridian): distributed execution fabric in pure Go: Multi-Raft, MVCC/ART, Wound-Wait 2PC, deterministic replay, vectorized SQL  
@@ -20,6 +18,7 @@
 [lockstep](https://github.com/Aneesh495/lockstep): C++ matching and market-data path for an electronic exchange  
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
 [helix](https://github.com/Aneesh495/helix): leaderless transaction kernel in Elixir: EPaxos, Block-STM, Merkle proofs, delta-CRDTs  
+[vibe](https://github.com/Aneesh495/vibe): distributed messenger, custom Java NIO TLS reactor, binary wire protocol, Raft quorum commit, segmented WAL  
 
 **Machine Learning**  
 [asterion](https://github.com/Aneesh495/asterion): equivariant molecular potential lab; SE(3) geometric tensors, conservative forces, Verlet dynamics  
@@ -32,12 +31,5 @@
 [vectortick](https://github.com/Aneesh495/VectorTick): C++20 columnar market-data engine with SSA IR, vector VM, and custom x86-64/AArch64 JIT  
 [tessera](https://github.com/Aneesh495/tessera): multi-model storage engine in Zig: leveled LSM-tree, SIMD HNSW index, dynamic CSR graph, MVCC  
 [prism](https://github.com/Aneesh495/prism): incremental semiring dataflow and Datalog engine in Scala 3: multidimensional lattices, Magic Sets, e-graphs  
-[skein](https://github.com/Aneesh495/skein): exact causal reliability lab in Perl: counterfactual queries, ROBDD inference, rational probabilities  
 [ipl](https://github.com/Aneesh495/ipl): 1,243-match Cricsheet chase lab; win-probability replay, next-ball model, temporal calibration audit  
 [tn26](https://github.com/Aneesh495/tn26): 234-constituency Tamil Nadu 2026 election lab; ecological inference, synthetic control, polling forensics  
-
-**Product**  
-[covenant](https://github.com/Aneesh495/covenant): PDF/DOCX contract and resume review, source-linked findings, policy/ATS checks, durable Postgres workers<br>
-[lancechain](https://github.com/Aneesh495/lancechain): Solidity milestone escrow, EIP-712/1271 dual-sig, non-reentrant pull ledger, reorg-aware Postgres indexer<br>
-[vibe](https://github.com/Aneesh495/vibe): distributed messenger, custom Java NIO TLS reactor, binary wire protocol, Raft quorum commit, segmented WAL<br>
-[metricon](https://github.com/Aneesh495/metricon): learning analytics from JSON telemetry; attempt normalization, rolling accuracy, difficulty heuristics  
