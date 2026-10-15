@@ -19,6 +19,7 @@
 [splice](https://github.com/Aneesh495/splice): inspectable POSIX shell in C++20: quote-preserving AST, descriptor plan, process groups, PTY runtime  
 [lockstep](https://github.com/Aneesh495/lockstep): C++ matching and market-data path for an electronic exchange  
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
+[helix](https://github.com/Aneesh495/helix): leaderless distributed transaction kernel in pure Elixir: egalitarian Paxos, Block-STM parallel execution, sparse Merkle trees, delta-CRDTs, and deterministic chaos simulation  
 
 **Machine Learning**  
 [asterion](https://github.com/Aneesh495/asterion): equivariant molecular potential lab; SE(3) geometric tensors, conservative forces, Verlet dynamics  
