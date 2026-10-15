@@ -14,7 +14,7 @@
 [quartz](https://github.com/Aneesh495/quartz): deterministic physical-layer lab in D: rational clocks, RRC filtering, cyclic OFDM, Alamouti MIMO MMSE  
 [stratum](https://github.com/Aneesh495/stratum-os): preemptive SMP x86-64 kernel: UEFI loader, 4-level paging COW, virtio net/blk, journaled StrataFS  
 [splice](https://github.com/Aneesh495/splice): inspectable POSIX shell in C++20: quote-preserving AST, descriptor plan, process groups, PTY runtime  
-[lockstep](https://github.com/Aneesh495/lockstep): C++ matching and market-data path for an electronic exchange  
+[lockstep](https://github.com/Aneesh495/lockstep): C++20 exchange engine: price-time matching, pre-trade risk, dual UDP feeds, WAL/snapshot recovery  
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
 
 **Distributed**  
@@ -23,10 +23,8 @@
 [vibe](https://github.com/Aneesh495/vibe): distributed messenger, custom Java NIO TLS reactor, binary wire protocol, Raft quorum commit, segmented WAL  
 
 **Machine Learning**  
-[asterion](https://github.com/Aneesh495/asterion): equivariant molecular potential lab; SE(3) geometric tensors, conservative forces, Verlet dynamics  
 [nocturne](https://github.com/Aneesh495/nocturne): neural population dynamics; Neural ODE VLDM, axial attention, Lie RoPE, sub-5ms causal streaming  
 [noema](https://github.com/Aneesh495/noema): neural theorem prover for Lean 4, 24-block Transformer, PageRank premise retrieval, AND/OR hypergraphs, Merkle audit  
-[isopleth](https://github.com/Aneesh495/isopleth): conservation-aware neural operator, multiscale face fluxes, telescopic conservation, adjoint solver  
 [kinesis](https://github.com/Aneesh495/kinesis): epistemic world-model control lab; symplectic leapfrog RSSM, disagreement MPPI, polyhedral CBF shield  
 
 **Data**  
