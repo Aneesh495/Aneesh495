@@ -17,7 +17,7 @@
 [lockstep](https://github.com/Aneesh495/lockstep): C++20 exchange engine: price-time matching, pre-trade risk, dual UDP feeds, WAL/snapshot recovery  
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
 
-**Distributed Systems**  
+**Infrastructure**  
 [meridian](https://github.com/Aneesh495/meridian): distributed execution fabric in pure Go: Multi-Raft, MVCC/ART, Wound-Wait 2PC, deterministic replay, vectorized SQL  
 [helix](https://github.com/Aneesh495/helix): leaderless transaction kernel in Elixir: EPaxos, Block-STM, Merkle proofs, delta-CRDTs  
 [vibe](https://github.com/Aneesh495/vibe): distributed messenger, custom Java NIO TLS reactor, binary wire protocol, Raft quorum commit, segmented WAL  
