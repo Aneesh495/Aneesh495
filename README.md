@@ -6,7 +6,6 @@
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
 [splice](https://github.com/Aneesh495/splice): inspectable POSIX shell in C++20: quote-preserving AST, descriptor plan, process groups, PTY runtime  
 [quartz](https://github.com/Aneesh495/quartz): deterministic physical-layer lab in D: rational clocks, RRC filtering, cyclic OFDM, Alamouti MIMO MMSE  
-[apogee](https://github.com/Aneesh495/apogee): delay-tolerant satellite mesh network and autonomous orbital avionics kernel in pure Erlang: RFC 9171 BPv7, contact graph routing, SGP4 orbital propagator, CCSDS COP-1 frames, and timed-automata flight rules  
 
 **Compilers**  
 [cinder](https://github.com/Aneesh495/cinder): C17 compiler in pure C: SSA IR, register allocator, direct x86-64 ELF64 emitter, no assembler  
