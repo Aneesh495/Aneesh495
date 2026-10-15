@@ -11,12 +11,14 @@
 [glyph](https://github.com/Aneesh495/glyph): functional language in OCaml: Hindley-Milner typing, Maranget decision trees, register VM, Cheney GC  
 
 **Systems**  
-[meridian](https://github.com/Aneesh495/meridian): distributed execution fabric in pure Go: Multi-Raft, MVCC/ART, Wound-Wait 2PC, deterministic replay, vectorized SQL  
 [quartz](https://github.com/Aneesh495/quartz): deterministic physical-layer lab in D: rational clocks, RRC filtering, cyclic OFDM, Alamouti MIMO MMSE  
 [stratum](https://github.com/Aneesh495/stratum-os): preemptive SMP x86-64 kernel: UEFI loader, 4-level paging COW, virtio net/blk, journaled StrataFS  
 [splice](https://github.com/Aneesh495/splice): inspectable POSIX shell in C++20: quote-preserving AST, descriptor plan, process groups, PTY runtime  
 [lockstep](https://github.com/Aneesh495/lockstep): C++ matching and market-data path for an electronic exchange  
 [crucible](https://github.com/Aneesh495/Crucible): deterministic .NET simulation runtime, virtual time, fault injection, schedule replay  
+
+**Distributed**  
+[meridian](https://github.com/Aneesh495/meridian): distributed execution fabric in pure Go: Multi-Raft, MVCC/ART, Wound-Wait 2PC, deterministic replay, vectorized SQL  
 [helix](https://github.com/Aneesh495/helix): leaderless transaction kernel in Elixir: EPaxos, Block-STM, Merkle proofs, delta-CRDTs  
 [vibe](https://github.com/Aneesh495/vibe): distributed messenger, custom Java NIO TLS reactor, binary wire protocol, Raft quorum commit, segmented WAL  
 
