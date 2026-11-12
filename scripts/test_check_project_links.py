@@ -51,6 +51,16 @@ class ProjectLinksTests(unittest.TestCase):
         self.assertEqual(result.returncode, 2)
         self.assertIn("no GitHub repository links found", result.stderr)
 
+    def test_invalid_text_encoding_is_a_usage_error(self):
+        with tempfile.TemporaryDirectory() as directory:
+            readme = Path(directory) / "README.md"
+            readme.write_bytes(b"\xff")
+            result = subprocess.run([sys.executable, str(Path(checker.__file__)), "--readme", str(readme)],
+                                    capture_output=True, text=True)
+        self.assertEqual(result.returncode, 2)
+        self.assertIn("error:", result.stderr)
+        self.assertNotIn("Traceback", result.stderr)
+
 
 if __name__ == "__main__":
     unittest.main()

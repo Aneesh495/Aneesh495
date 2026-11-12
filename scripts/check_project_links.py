@@ -46,7 +46,7 @@ def main():
     args = parser.parse_args()
     try:
         names = repositories(args.readme.read_text(encoding="utf-8"))
-    except OSError as error:
+    except (OSError, UnicodeError) as error:
         parser.error(str(error))
     if not names:
         parser.error("no GitHub repository links found")
