@@ -37,6 +37,11 @@ class ProjectLinksTests(unittest.TestCase):
         with patch.object(checker.subprocess, "run", return_value=subprocess.CompletedProcess([], 0, "not JSON", "")):
             self.assertIn("invalid JSON", checker.check_repository("alice/project"))
 
+    def test_non_object_json_is_reported(self):
+        for metadata in (None, [], "unexpected", 42, True):
+            with self.subTest(metadata=metadata), patch.object(checker.subprocess, "run", return_value=self.result(metadata)):
+                self.assertIn("invalid repository metadata", checker.check_repository("alice/project"))
+
     def test_missing_cli_and_timeout_are_reported(self):
         for error in (FileNotFoundError("gh"), subprocess.TimeoutExpired("gh", 30)):
             with self.subTest(error=type(error).__name__), patch.object(checker.subprocess, "run", side_effect=error):
