@@ -31,6 +31,8 @@ def check_repository(name):
         metadata = json.loads(result.stdout)
     except ValueError:
         return "GitHub API returned invalid JSON"
+    if not isinstance(metadata, dict):
+        return "GitHub API returned invalid repository metadata"
     if metadata.get("private"):
         return "repository is private"
     if metadata.get("archived"):
