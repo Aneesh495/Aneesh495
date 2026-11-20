@@ -20,11 +20,11 @@
 [fathom](https://github.com/Aneesh495/fathom) · Compiler and bytecode VM with path-dependent types and contextual argument resolution  
 [athanor](https://github.com/Aneesh495/athanor) · Superoptimizer that uses e-graphs to search for cheaper equivalent programs  
 [axiom](https://github.com/Aneesh495/axiom) · SMT solver with conflict-driven search and weakest-precondition verification  
-[noema](https://github.com/Aneesh495/noema) · Neural proof search that retrieves relevant lemmas and independently checks candidate proofs  
+[noema](https://github.com/Aneesh495/noema) · Neural proof search with lemma retrieval and independent proof checking  
 
 **Scientific Inference**  
 [diachron](https://github.com/Aneesh495/diachron) · Infers dated language trees from cognates, modeling borrowing and uncertain geography  
-[lithora](https://github.com/Aneesh495/lithora) · Spherical geometry for tectonic plate reconstruction and models of present-day crustal motion  
+[lithora](https://github.com/Aneesh495/lithora) · Reconstructs tectonic plate motion and models present-day crustal deformation  
 [asterion](https://github.com/Aneesh495/asterion) · Learns molecular energies from geometry and takes gradients to get conservative forces  
 
 **Physics & Signals**  
