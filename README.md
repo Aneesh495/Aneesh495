@@ -30,3 +30,8 @@
 **Physics & Signals**  
 [umbra](https://github.com/Aneesh495/umbra) · Solver for relativistic plasma and polarized ray tracing around spinning black holes  
 [quartz](https://github.com/Aneesh495/quartz) · Radio simulator with rational sample clocks, OFDM, and repeatable channel experiments
+
+**Small Tools**
+
+- [Git blob IDs from scratch](https://gist.github.com/Aneesh495/ea430497e6e32855b5650b1d6b34f746) · Streaming SHA-1 and SHA-256 object IDs in Python
+- [Tail latency from the terminal](https://gist.github.com/Aneesh495/a52c7e3f8454ed17388cc64167dd3359) · p50 through p99.9 from benchmark samples and CSV files
