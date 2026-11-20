@@ -34,4 +34,6 @@
 **Small Tools**
 
 - [Git blob IDs from scratch](https://gist.github.com/Aneesh495/ea430497e6e32855b5650b1d6b34f746) · Streaming SHA-1 and SHA-256 object IDs in Python
+- [Git status to JSON](https://gist.github.com/Aneesh495/e24e97c0d90618fa58510654556b3a3f) · Parse staged changes, renames, and filenames containing tabs or newlines
 - [Tail latency from the terminal](https://gist.github.com/Aneesh495/a52c7e3f8454ed17388cc64167dd3359) · p50 through p99.9 from benchmark samples and CSV files
+- [PCM16 WAV probe](https://gist.github.com/Aneesh495/c036d1f918b4e50ddd5c2c4c47efc8d4) · Peak, RMS, and sample rail hits per channel
